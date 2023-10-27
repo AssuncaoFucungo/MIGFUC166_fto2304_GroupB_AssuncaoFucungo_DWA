@@ -1,0 +1,206 @@
+.podcasts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .podcast-list {
+    width: 100%; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 0%;
+    font-family:monospace;
+    color: black    
+  }
+
+.favorites-section {
+  background-color: rgba(173, 145, 110, 0.496);
+  width: 100%; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 2%;
+  font-family:monospace;
+  color: black
+}
+
+  .podcast-list :hover {
+    background-color: rgb(97, 77, 40);
+    
+  }
+  
+  .podcast-item {
+    width: calc(16.666% - 20px); 
+    margin-bottom: 20px;
+    padding: 30px;
+    background-color: rgba(145, 120, 89, 0.468);
+  }
+
+
+  .podcast-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
+  }
+  
+  .podcast-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .podcast-
+
+
+  .podcast-season,
+  .podcast-updated,
+  .podcast-genres {
+    margin-top: 5px;
+  }
+  
+.overlay {
+  background-color: rgba(0, 0, 0, 0.653);
+}
+
+.overlay-content {
+  max-width: 70%;
+}
+
+.overlay-img {
+  max-width: 20%;
+  border-radius: 10%;
+}
+
+.overlay-scrollable-content {
+  max-height: 20rem; /* Adjust the maximum height as needed */
+  overflow-y: auto;
+}
+
+.button {
+  position: absolute;
+  top: 5%;
+  right: 20%;
+}
+
+.Season-title {
+  margin-bottom: 10px;
+}
+
+.title-order {
+  position: relative;
+  margin: 2%;
+}
+
+/* Original CSS styles for larger screens */
+
+/* ... (your existing CSS rules) */
+
+/* Media query for iPhone SE (or similar small screens) */
+@media (max-width: 380px) {
+  .podcasts {
+    display: flex;
+
+  }
+  
+  .podcast-list {
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0%;
+    font-family:monospace;
+    color: black    
+  }
+
+.favorites-section {
+  background-color: rgba(173, 145, 110, 0.496);
+  width: 100%; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 2%;
+  font-family:monospace;
+  color: black
+}
+
+  .podcast-list :hover {
+    background-color: rgb(97, 77, 40);
+    
+  }
+  
+  .podcast-item {
+    width: calc(100% - 10px); 
+    margin-bottom: 20px;
+    padding: 30px;
+    background-color: rgba(145, 120, 89, 0.468);
+  }
+
+
+  .podcast-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10%;
+  }
+  
+  .podcast-title {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  
+  
+  .podcast-season,
+  .podcast-updated,
+  .podcast-genres {
+    margin-top: 5px;
+    font-size: 10px;
+  }
+
+  .podcast-description {
+    font-size: 10px;
+    margin: 2%;
+  }
+  
+.overlay {
+  background-color: rgba(0, 0, 0, 0.653);
+}
+
+.overlay-content {
+  max-width: 90%;
+ 
+}
+
+.overlay-img {
+  max-width: 20%;
+  border-radius: 10%;
+}
+
+.overlay-scrollable-content {
+  max-height: 20rem; /* Adjust the maximum height as needed */
+  overflow-y: auto;
+  margin-left: 0%;
+}
+
+.button {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  margin: 5px;
+}
+
+.Season-title {
+  margin-bottom: 10px;
+}
+
+
+.ul {
+  padding-left: 0%;
+}
+
+.title-order {
+  position: relative;
+  margin: 2%;
+}
+ 
+
+  /* Additional adjustments as needed for smaller screens */
+}
+
