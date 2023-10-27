@@ -1,0 +1,157 @@
+
+.navbar {
+  background-color: #c8c8c853;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  
+}
+
+.left-section {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link-image-user {
+  margin-right: 1rem;
+  text-decoration: none;
+  max-width: 30px;
+}
+
+.nav-link-image-fav {
+  margin-right: 1rem;
+  text-decoration: none;
+  max-width: 30px;
+}
+
+.center-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-img {
+  max-width: 30px;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+/* Overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.overlay-content {
+  background-color: #fff;
+  padding: 60px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+/* Close button */
+.overlay-content button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Media query for iPhone SE (or similar small screens) */
+@media (max-width: 320px) {
+  .navbar {
+    background-color: #c8c8c853;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+  }
+  
+  .left-section {
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-link-image-user {
+    margin-right: 1rem;
+    text-decoration: none;
+    max-width: 20px;
+    border: green;
+  }
+  
+  
+  .nav-link-image-fav {
+    margin-right: 1rem;
+    text-decoration: none;
+    max-width: 30px;
+  }
+  
+  .center-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo-img {
+    max-width: 20px;
+  }
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Overlay */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .overlay-content {
+    background-color: #fff;
+    padding: 60px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+  /* Close button */
+  .overlay-content button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+}
